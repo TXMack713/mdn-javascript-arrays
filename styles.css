@@ -1,3 +1,31 @@
 body {
-  background: orange;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  word-break: keep-all;
+  hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+/* Color Palette 
+#B6A99A
+#D5CABD
+#504538
+#ABD4CC
+#769D96
+*/
+
+body {
+  background-color: #b6a99a;
+  text-align: center;
 }
